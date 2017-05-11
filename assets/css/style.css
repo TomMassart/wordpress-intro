@@ -1,0 +1,23 @@
+body{
+    font: normal normal 16px/1.5em sans-serif;
+}
+.content__wysiwyg p + p{
+    margin-top: 1.5em;
+}
+.content__wysiwyg b,
+.content__wysiwyg strong{
+    font-weight: bold;
+    color: red;
+}
+.content__wysiwyg i,
+.content__wysiwyg em{
+    font-style: italic;
+    color: green;
+}
+.content__wysiwyg a{
+    text-decoration: underline;
+    color: pink;
+}
+.navigation__sub{
+    padding-left: 20px;
+}
